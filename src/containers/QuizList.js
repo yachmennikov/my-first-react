@@ -20,9 +20,11 @@ export class QuizList extends Component {
     }
 
     componentDidMount() {
-        axios.get('https://react-quiz89.firebaseio.com/quiz.json')
-        .then( response => console.log(response) )
-        .catch( error => console.log(error))
+    
+    axios.get('https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=4830965471d38bb9166a638b65c07eab')
+    .then( response => console.log(response) )
+    .catch( error => console.log(error))
+    
     }
 
     render() {
