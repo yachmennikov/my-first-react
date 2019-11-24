@@ -1,0 +1,21 @@
+.answerItem {
+   list-style-type: none;
+   border: 1px solid #fff;
+   border-radius: 5px;
+   padding: 5px 10px;
+   cursor: pointer;
+   margin-bottom: 10px;
+}
+
+.answerItem:hover {
+    background: rgba(255, 255, 255, .2);
+    transition: background .3s ease-in-out;
+}
+
+.success {
+    background: rgba(161, 240, 69, .2);
+}
+
+.mistake {
+    background: rgba(240, 87, 108, 0.7);
+}
